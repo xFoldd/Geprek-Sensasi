@@ -167,6 +167,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
+	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -436,8 +437,10 @@ color: #999;
 	color: #eee;
 }
 
-@media (max-width: 576px) { /* Mobile devices (extra small) */
-	.intro-text h1 {
-	  font-size: 5rem; /* Adjust the font size as needed */
+/* Media Queries */
+@media (max-width: 575.98px) { 
+	header .intro-text {
+		font-size: 0.5rem;
+		padding-top: 300px;
 	}
-  }
+}
