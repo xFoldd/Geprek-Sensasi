@@ -445,3 +445,9 @@ color: #999;
 		padding-top: 200px;
 	}
 }
+@media (max-width: 576px) { /* Mobile devices (extra small) */
+	#about .about-img {
+	  height: 195px; /* Adjust height as needed for mobile */
+	}
+  }
+
